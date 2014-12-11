@@ -1,0 +1,116 @@
+/* Your Website Styles */
+header	{
+color: #2c2d70;
+font-family: 'Oswald', sans-serif;
+}
+
+body{
+	background: url(../img/bg.png);
+	font-family: 'Raleway', serif;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 45px;
+	font-family: 'Round Crete', sans-serif;
+	color: #2c2d70;
+	border-bottom: solid #73cbcc;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	width: 350px;
+}
+
+h1 a {
+	background: url(../img/LogoF.png) no-repeat;
+	display: block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+	max-width:15%;
+	max-height:50%;
+	background-size: contain;
+	margin-top: 14px;
+	margin-left: 25px;
+	}
+
+header {
+	background: #2c2d70;
+	height: 76px;
+}
+
+
+#profile-pic {
+width: 70%;
+position: center;
+padding-left: 150px;
+margin-top: 15px;
+
+}
+
+#banner {
+	text-align: center;
+	height: 100px;
+	font-size: 115px;
+	color: #73cbcc;
+	padding-bottom: 50px;
+	font-family: 'Crete Round', serif;;
+}
+
+#navigationlinks {
+	height: 59px;
+}
+
+
+#navigationlinks ul
+{
+font-family: 'Raleway', sans-serif;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: right;
+font-size: 20px;
+word-spacing: 10px;
+margin-right: 80px;
+}
+
+#navigationlinks ul li { 
+	display: inline; 
+	font-size: 50px;
+
+	
+}
+#navigationlinks ul li a {
+text-decoration: none;
+font-size: 20px;
+color: #73cbcc;
+}
+
+#about {
+text-align: justify;
+
+}
+
+#major {
+text-align: left;
+
+}
+
+#hobbies {
+	text-align: justify;   
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
