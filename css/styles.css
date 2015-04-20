@@ -1,0 +1,17 @@
+/* Your Styling */
+
+.contanier {
+	margin: 0 auto;
+	width: 50%;
+}
+
+
+h1, li {
+	font-family: 'Lora', serif;
+}
+
+.dropcap {
+	font-size: 4em;
+	background: orange;
+	color: white;
+}
