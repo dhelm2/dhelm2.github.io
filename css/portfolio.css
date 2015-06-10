@@ -96,20 +96,9 @@ color: #ffffff;
 color: #ababab;
 }
 
-#about {
-text-align: justify;
 
+
+.section {
+	margin: 0 auto 0 auto;
 }
-
-#major {
-text-align: left;
-
-}
-
-#hobbies {
-	text-align: justify;   
-}
-
-
-
 
