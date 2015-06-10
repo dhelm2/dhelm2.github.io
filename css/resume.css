@@ -1,17 +1,20 @@
 /* Your Website Styles */
 header	{
-color: #2c2d70;
+font-color: #ababab;
 font-family: 'Arapey', sans-serif;
 }
 
 body{
-	background: url(../img/bg.png);
-	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	background: url(../img/city.jpg);
+	font-family: 'Istok Web', sans-serif;
+	font-size: 12px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 2000px 1242px;
 }
 
 h1 a {
-	background: url(../img/LogoF.png) no-repeat;
+	background: url(../img/logo.png) no-repeat;
 	display: block;
 	text-indent: 100%;
 	white-space: nowrap;
@@ -20,10 +23,10 @@ h1 a {
 	max-width:15%;
 	max-height:50%;
 	background-size: contain;
-	margin-top: 14px;
-	margin-left: 25px;
+	margin:0 auto 0 auto;
+	height: 50px;
+	}
 
-}
 
 
 h2:nth-child(4) {
@@ -32,58 +35,66 @@ h2:nth-child(4) {
     }
 
 h2 {
-	margin-bottom: 0px;
-	font-size: 45px;
-	font-family: 'Arapey', sans-serif;
-	color: #2c2d70;
-	border-bottom: solid #73cbcc;
-	width: 350px;
+	font-size: 20px;
+	font-family: 'Arapey', serif;
+	color: #ffffff;
+	border-bottom: solid #ffffff;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	width: 150px;
+	padding-bottom: 3px;
+
 }
+
 #contact {
-	display: block;
+display: block;
 text-align: justify;
-margin-left: 10px;
-margin-top: 15px;
-margin-right: 0px;
+margin: 0 0 0 100px;
 color: #2c2d70;
 
 }
 
 #contact li {
  padding-top: 2px;
- color: black;
- font-family: 'Raleway', sans-serif;
+ color: #ababab;
+ font-family: 'Istok Web', sans-serif;
+
 }
 
 #skills {
 text-align: justify;
 margin-left: 0px;
-margin-top: 15px;
 color: #2c2d70;
 }
 
 #skills li {
  padding-top: 2px;
- color: black;
+ color: #ababab;
 
+}
+
+#work-ed:nth-child(odd) {
+	margin-left: 100px;
 }
 
 #work-ed  {
 	text-align: justify;
 	}
 
+
+
 #work-ed dd {
-	font-family: 'Raleway', sans-serif; font-weight: 300;
-	color: black;
+	font-family: 'Istok Web', sans-serif; font-weight: 300;
+	color: #ababab;
 
 
 
 }
 
 #work-ed dl dt {
-	font-size: 30px;
-	font-family: 'Crete Round', sans-serif;
-	color: #2c2d70;
+	font-size: 15px;
+	font-family: 'Istok Web', sans-serif;
+	color: #ffffff;
 	list-style: none;
 }
 
@@ -92,37 +103,45 @@ color: #2c2d70;
 #banner {
 	text-align: center;
 	height: 100px;
-	font-size: 115px;
-	color: #73cbcc;
-	padding-bottom: 40px;
-	font-family: 'Crete Round', serif;
+	font-size: 230px;
+	color: #ffffff;
+	font-family: 'Arapey', serif;;
+	height: 65px;
+	padding-bottom: 80px;
+	font-style: italic;
+	padding-top: 40px;
+	opacity: .07;
+	pointer-events: none;
 
 }
 
 header {
-	background: #2c2d70;
 	height: 76px;
 }
 
 #navigationlinks {
+	font-family: 'Arapey', serif;
 	height: 59px;
+	position: fixed;
+	float: right;
+	width: 1000px;
 }
 
 #navigationlinks ul {
-font-family: 'Raleway', sans-serif;
+font-family: 'Istok Web', serif;
 margin: 0;
 padding: 0;
 list-style-type: none;
 text-align: right;
 font-size: 20px;
-word-spacing: 10px;
-margin-right: 80px;
-
+word-spacing: 20px;
+float: right;
 }
 
 
+
 #navigationlinks ul li { 
-	display: inline-block; 
+	display: inline; 
 	font-size: 50px;
 
 	
@@ -130,9 +149,12 @@ margin-right: 80px;
 #navigationlinks ul li a {
 text-decoration: none;
 font-size: 20px;
-color: #73cbcc;
+color: #ffffff;
 }
 
+#navigationlinks ul li a:hover {
+color: #ababab;
+}
 
 
 
